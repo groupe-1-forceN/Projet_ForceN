@@ -1,0 +1,26 @@
+
+/* Ajouter du border-radius aux images */
+.col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Remplir la colonne sans déformer l'image */
+    border-radius: 15px; /* Arrondir les coins des images */
+}
+
+/* Centrer les titres dans chaque section */
+.text-center h5 {
+    text-align: center;
+}
+
+/* Modifier le style du copyright */
+.copyright {
+    text-align: center;
+    color: white;
+  
+}
+
+/* Ajout d'un peu de padding et de marges pour l'espacement */
+.copyright p {
+    margin-bottom: 0;
+    padding: 10px 0;
+}
